@@ -1,0 +1,18 @@
+# environments and IDE
+venv/
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# secrets - never commit these
+kaggle.json
+access_token
+.env
+*.key
+
+# data and generated files (dataset license is unclear, so keep images out)
+examples/
+data*/
+*.zip
+flagged/
